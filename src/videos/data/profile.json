@@ -1,0 +1,382 @@
+{
+  "videoConfig": {
+    "fps": 30,
+    "durationInFrames": 5400,
+    "width": 1920,
+    "height": 1080
+  },
+  "act1": {
+    "nav": {
+      "items": ["ホーム", "新郎", "新婦", "二人の物語"],
+      "avatarLabel": "NN"
+    },
+    "signIn": {
+      "checkboxLabel": "Just Married",
+      "gridImages": [
+        "sample/opening/photo_01.jpg",
+        "sample/opening/photo_02.jpg",
+        "sample/opening/photo_03.jpg",
+        "sample/opening/photo_04.jpg",
+        "sample/opening/photo_05.jpg",
+        "sample/opening/photo_06.jpg",
+        "sample/opening/photo_07.jpg",
+        "sample/opening/photo_08.jpg",
+        "sample/couple/photo_01.jpg",
+        "sample/couple/photo_02.jpg",
+        "sample/couple/photo_03.jpg",
+        "sample/couple/photo_04.jpg"
+      ],
+      "email": "taro.hanako@weddingflix.com"
+    },
+    "profiles": [
+      {
+        "name": "Taro",
+        "avatar": "sample/groom/thumbnail.jpg"
+      },
+      {
+        "name": "Hanako",
+        "avatar": "sample/bride/thumbnail.jpg"
+      },
+      {
+        "name": "Two of us",
+        "avatar": "sample/couple/thumbnail.jpg"
+      }
+    ],
+    "home": {
+      "heroImageInterval": 90,
+      "badge": "WEDDING SPECIAL"
+    },
+    "detailModal": {
+      "backgroundImage": "sample/groom/hero.jpg",
+      "title": "GROOM'S STORY",
+      "date": "1995.04.15",
+      "episodes": "3エピソード",
+      "genres": ["国内", "青春", "ヒューマンドラマ"],
+      "description": "山田 太郎。1995年4月15日生・東京都世田谷区出身。兄と妹の3人きょうだいの真ん中。中学からサッカーに没頭し、大学では情報工学を専攻。卒業後はWebエンジニアとして活躍中。",
+      "matchPercentage": 97,
+      "ageRating": "G",
+      "tags": ["サッカー", "エンジニア", "旅行好き", "真ん中っ子"]
+    },
+    "brideDetailModal": {
+      "backgroundImage": "sample/bride/hero.jpg",
+      "title": "BRIDE'S STORY",
+      "date": "1997.08.20",
+      "episodes": "3エピソード",
+      "genres": ["国内", "青春", "スポーツ"],
+      "description": "佐藤 花子。1997年8月20日生・神奈川県鎌倉市出身。姉と二人姉妹の妹。中高一貫校でバレーボールに打ち込み、大学では経営学を学ぶ。マーケティング職として活躍中。",
+      "matchPercentage": 99,
+      "ageRating": "G",
+      "tags": ["バレーボール", "マーケティング", "カフェ巡り", "妹"]
+    },
+    "ourDetailModal": {
+      "backgroundImage": "sample/couple/hero.jpg",
+      "title": "OUR STORY",
+      "date": "2025.11.22",
+      "episodes": "3エピソード",
+      "genres": ["国内", "ラブストーリー", "ドキュメンタリー"],
+      "description": "共通の友人の紹介で出会った二人。カフェ巡りと映画鑑賞が共通の趣味で意気投合。交際を重ね、思い出の場所でプロポーズ。いい夫婦の日に入籍し、二人の新しい物語が始まる。",
+      "matchPercentage": 100,
+      "ageRating": "G",
+      "tags": ["ラブストーリー", "カフェ", "映画", "いい夫婦の日"]
+    }
+  },
+  "act2": {
+    "home": {
+      "categoryTitle": "新郎 太郎",
+      "heroTitle": "GROOM'S STORY",
+      "heroSubtitle": "主演：山田 太郎",
+      "heroDescription": "「太郎」元気で逞しく育ってほしいと願われ\nサッカーに熱中した少年が\nエンジニアとして羽ばたくストーリー",
+      "heroLogoImage": "logos/grooms_story.png",
+      "heroLogoMaxWidth": 900
+    },
+    "heroImages": ["sample/groom/hero.jpg"],
+    "thumbnailItems": [
+      {
+        "id": "groom1",
+        "title": "3きょうだいの真ん中",
+        "thumbnail": "sample/groom/photo_01.jpg"
+      },
+      {
+        "id": "groom2",
+        "title": "サッカー少年",
+        "thumbnail": "sample/groom/photo_02.jpg"
+      },
+      {
+        "id": "groom3",
+        "title": "大学時代",
+        "thumbnail": "sample/groom/photo_03.jpg"
+      },
+      {
+        "id": "groom4",
+        "title": "エンジニアへ",
+        "thumbnail": "sample/groom/photo_04.jpg"
+      }
+    ],
+    "chapterTitle": "GROOM'S STORY",
+    "chapterName": "山田 太郎",
+    "chapterDuration": 90,
+    "filmBurnDuration": 90,
+    "photos": [
+      {
+        "caption": "誕生",
+        "year": "1995",
+        "duration": 180,
+        "slides": [
+          {
+            "video": "sample/groom/video_1.mp4",
+            "photo": "sample/groom/photo_01.jpg",
+            "comment": "1995年4月15日、東京都世田谷区で誕生。",
+            "duration": 180
+          }
+        ]
+      },
+      {
+        "caption": "幼少期",
+        "year": "1999",
+        "duration": 200,
+        "slides": [
+          {
+            "type": "scattered",
+            "photos": [
+              "sample/groom/photo_01.jpg",
+              "sample/groom/photo_02.jpg",
+              "sample/groom/photo_03.jpg",
+              "sample/groom/photo_04.jpg"
+            ],
+            "comment": "外で遊ぶのが大好きな子供でした。\n毎日泥だらけで帰ってきてました。",
+            "duration": 200
+          }
+        ]
+      },
+      {
+        "caption": "大学で情報工学を学ぶ",
+        "year": "2013",
+        "duration": 200,
+        "slides": [
+          {
+            "type": "grid",
+            "photos": [
+              "sample/groom/photo_05.jpg",
+              "sample/groom/photo_06.jpg",
+              "sample/groom/photo_07.jpg",
+              "sample/groom/photo_08.jpg"
+            ],
+            "comment": "大学時代の友人とは\n社会人になっても仲良くしています。",
+            "duration": 200
+          }
+        ]
+      }
+    ]
+  },
+  "act3": {
+    "home": {
+      "categoryTitle": "新婦 花子",
+      "heroTitle": "BRIDE'S STORY",
+      "heroSubtitle": "主演：佐藤 花子",
+      "heroDescription": "「花子」花のように美しく優しく\nバレーボールに打ち込みながら\n自分の道を切り拓いた女のストーリー",
+      "heroLogoImage": "logos/brides_story.png",
+      "heroLogoMaxWidth": 800
+    },
+    "heroImages": ["sample/bride/hero.jpg"],
+    "thumbnailItems": [
+      {
+        "id": "bride1",
+        "title": "誕生",
+        "thumbnail": "sample/bride/photo_01.jpg"
+      },
+      {
+        "id": "bride2",
+        "title": "幼少期",
+        "thumbnail": "sample/bride/photo_02.jpg"
+      },
+      {
+        "id": "bride3",
+        "title": "家族1",
+        "thumbnail": "sample/bride/photo_03.jpg"
+      },
+      {
+        "id": "bride4",
+        "title": "家族2",
+        "thumbnail": "sample/bride/photo_04.jpg"
+      }
+    ],
+    "chapterTitle": "BRIDE'S STORY",
+    "chapterName": "佐藤 花子",
+    "chapterDuration": 90,
+    "montageDuration": 120,
+    "photos": [
+      {
+        "caption": "誕生",
+        "year": "1997",
+        "duration": 180,
+        "slides": [
+          {
+            "video": "sample/bride/video_1.mp4",
+            "photo": "sample/bride/photo_01.jpg",
+            "comment": "1997年8月20日、神奈川県鎌倉市に誕生。",
+            "duration": 180
+          }
+        ]
+      },
+      {
+        "caption": "中高一貫校でバレーボール漬けの日々",
+        "year": "2010",
+        "duration": 220,
+        "slides": [
+          {
+            "type": "grid",
+            "photos": [
+              "sample/bride/photo_06.jpg",
+              "sample/bride/photo_07.jpg",
+              "sample/bride/photo_08.jpg"
+            ],
+            "comment": "中学受験を経て入学。\nバレーボール部で毎日汗を流しました。\n厳しい練習も仲間と乗り越えました。",
+            "duration": 220
+          }
+        ]
+      },
+      {
+        "caption": "大学で経営学を学ぶ",
+        "year": "2016",
+        "duration": 200,
+        "slides": [
+          {
+            "type": "scattered",
+            "photos": [
+              "sample/bride/photo_16.jpg",
+              "sample/bride/photo_17.jpg",
+              "sample/bride/photo_01.jpg",
+              "sample/bride/photo_02.jpg"
+            ],
+            "comment": "大学ではサークルの友達と\n旅行やカフェ巡りを楽しみました。",
+            "duration": 200
+          }
+        ]
+      }
+    ]
+  },
+  "act4": {
+    "home": {
+      "categoryTitle": "二人のストーリー",
+      "heroTitle": "OUR STORY",
+      "heroSubtitle": "主演：山田 太郎、 佐藤 花子",
+      "heroDescription": "共通の友人から始まった二人の物語\nカフェ・映画・旅——すべてを共にして\nいい夫婦の日に、永遠を誓う",
+      "heroLogoImage": "logos/our_story.png",
+      "heroLogoMaxWidth": 820
+    },
+    "heroImages": ["sample/couple/hero.jpg"],
+    "thumbnailItems": [
+      {
+        "id": "our1",
+        "title": "運命の出会い",
+        "thumbnail": "sample/couple/photo_01.jpg"
+      },
+      {
+        "id": "our2",
+        "title": "思い出の場所でプロポーズ",
+        "thumbnail": "sample/couple/photo_05.jpg"
+      },
+      {
+        "id": "our3",
+        "title": "いい夫婦の日に入籍",
+        "thumbnail": "sample/couple/photo_09.jpg"
+      },
+      {
+        "id": "our4",
+        "title": "両家の家族",
+        "thumbnail": "sample/couple/photo_13.jpg"
+      }
+    ],
+    "chapterTitle": "OUR STORY",
+    "chapterName": "山田 太郎、 佐藤 花子",
+    "chapterDuration": 90,
+    "filmBurnDuration": 90,
+    "loadingDuration": 60,
+    "photos": [
+      {
+        "caption": "共通の友人の紹介で出会い",
+        "year": "2023",
+        "duration": 200,
+        "slides": [
+          {
+            "photo": "sample/couple/photo_01.jpg",
+            "comment": "共通の友人が開いた\n食事会で偶然出会った二人。"
+          }
+        ]
+      },
+      {
+        "caption": "共通の趣味のカフェ巡り",
+        "year": "2024",
+        "duration": 200,
+        "slides": [
+          {
+            "type": "scattered",
+            "photos": [
+              "sample/couple/photo_03.jpg",
+              "sample/couple/photo_04.jpg",
+              "sample/couple/photo_05.jpg",
+              "sample/couple/photo_06.jpg"
+            ],
+            "comment": "カフェ巡りが大好きな二人。\n週末は新しいお店を探しています！",
+            "duration": 200
+          }
+        ]
+      },
+      {
+        "caption": "仲の良い友人たち",
+        "year": "2025",
+        "duration": 220,
+        "slides": [
+          {
+            "type": "grid",
+            "photos": [
+              "sample/couple/photo_13.jpg",
+              "sample/couple/photo_14.jpg",
+              "sample/couple/photo_15.jpg",
+              "sample/couple/photo_16.jpg",
+              "sample/couple/photo_17.jpg",
+              "sample/couple/photo_18.jpg"
+            ],
+            "comment": "いつも応援してくれる\n友人たちには大感謝！\nこれからも仲良くしてください！",
+            "duration": 220
+          }
+        ]
+      }
+    ]
+  },
+  "act5": {
+    "credits": {
+      "backgroundPhoto": "sample/couple/photo_01.jpg",
+      "filmStripPhotos": [
+        "sample/couple/photo_01.jpg",
+        "sample/couple/photo_02.jpg",
+        "sample/couple/photo_03.jpg",
+        "sample/couple/photo_04.jpg",
+        "sample/couple/photo_05.jpg",
+        "sample/couple/photo_06.jpg"
+      ],
+      "duration": 360,
+      "messages": [
+        "本日はご多用の中",
+        "私たちの結婚披露宴に",
+        "お集まりくださり",
+        "誠にありがとうございます",
+        "",
+        "末長くよろしくお願いいたします",
+        "",
+        "2026.XX.XX 太郎 花子"
+      ]
+    },
+    "toBeContinued": {
+      "photo": "sample/couple/photo_20.jpg",
+      "text": "To Be Continued..."
+    },
+    "filmBurnDuration": 60,
+    "endLogoDuration": 150
+  },
+  "audio": {
+    "introSound": "audio/intro-sound.mp3",
+    "clickSound": "audio/click-sound.mp3",
+    "bgm": "sample/audio/bgm.mp3"
+  }
+}

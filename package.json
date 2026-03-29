@@ -1,0 +1,24 @@
+{
+  "name": "wedding-video-netflix-sample",
+  "version": "1.0.0",
+  "description": "Netflix-style wedding profile video built with Remotion - sample data version",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx remotion studio",
+    "build": "npx remotion render src/index.ts V2-Netflix-Sample out/v2-netflix-sample.mp4",
+    "build:hq": "npx remotion render src/index.ts V2-Netflix-Sample out/v2-netflix-sample.mp4 --codec h264 --crf 18"
+  },
+  "keywords": ["wedding", "video", "remotion", "netflix", "profile"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.414",
+    "@remotion/cli": "^4.0.414",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.414",
+    "typescript": "^5.9.3"
+  }
+}
